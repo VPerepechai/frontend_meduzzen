@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+
+  my-app:
+    container_name: frontendmeduzzen
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '8080:8080'
+
+    
