@@ -1,5 +1,6 @@
 <template>
   <Greeting msg="Welcome to Frontend Meduzzen App"/>
+  <router-view></router-view>
 </template>
 
 <script>
