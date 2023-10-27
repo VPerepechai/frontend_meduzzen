@@ -1,5 +1,5 @@
 <template>
-  <UniversalModal msg="Welcome to Frontend Meduzzen App"/>
+  <UniversalModal><h1>Welcome to Frontend Meduzzen App</h1></UniversalModal>
   <router-view></router-view>
 </template>
 
