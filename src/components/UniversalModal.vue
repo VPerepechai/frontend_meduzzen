@@ -1,15 +1,12 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+  <div class="unimodal">
+    <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Greeting',
-  props: {
-    msg: String
-  }
+  name: 'UniversalModal'
 }
 </script>
 

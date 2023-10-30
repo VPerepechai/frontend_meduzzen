@@ -1,14 +1,15 @@
 <template>
-  <Greeting msg="Welcome to Frontend Meduzzen App"/>
+  <UniversalModal><h1>Welcome to Frontend Meduzzen App</h1></UniversalModal>
+  <router-view></router-view>
 </template>
 
 <script>
-import Greeting from './components/Greeting.vue'
+import UniversalModal from './components/UniversalModal.vue'
 
 export default {
   name: 'App',
   components: {
-    Greeting
+    UniversalModal
   }
 }
 </script>
