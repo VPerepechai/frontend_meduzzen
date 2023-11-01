@@ -1,5 +1,5 @@
 <template>
-  <UniversalModal><h1>Welcome to Frontend Meduzzen App</h1></UniversalModal>
+  <UniversalModal><h1>{{ $t('home.title') }}</h1></UniversalModal>
   <router-view></router-view>
 </template>
 

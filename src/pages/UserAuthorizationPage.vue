@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>User authorization</h1>
+        <h1>{{ $t('userauthorization.title') }}</h1>
     </div>
 </template>
 
