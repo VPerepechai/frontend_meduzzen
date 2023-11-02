@@ -1,5 +1,9 @@
 <template>
-  <UniversalModal><h1>{{ $t('home.title') }}</h1></UniversalModal>
+  <UniversalModal>
+    <h1>
+      {{ $t('home.title') }}
+    </h1>
+  </UniversalModal>
   <LanguageSwitcher />
   <router-view></router-view>
 </template>
