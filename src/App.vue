@@ -1,15 +1,22 @@
 <template>
-  <UniversalModal><h1>Welcome to Frontend Meduzzen App</h1></UniversalModal>
+  <UniversalModal>
+    <h1>
+      {{ $t('home.title') }}
+    </h1>
+  </UniversalModal>
+  <LanguageSwitcher />
   <router-view></router-view>
 </template>
 
 <script>
 import UniversalModal from './components/UniversalModal.vue'
+import LanguageSwitcher from './components/LanguageSwitcher.vue'
 
 export default {
   name: 'App',
   components: {
-    UniversalModal
+    UniversalModal,
+    LanguageSwitcher
   }
 }
 </script>

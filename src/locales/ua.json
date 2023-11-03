@@ -1,0 +1,28 @@
+{
+    "home": {
+        "title": "Ласкаво просимо до програми Frontend Meduzzen"
+    },
+    "about": {
+        "title": "Про нас"
+    },
+    "companieslist": {
+        "title": "Список компаній"
+    },
+    "companyprofile": {
+        "title": "Профіль компанії"
+    },
+    "userauthorization": {
+        "title": "Авторизація користувача"
+    },
+    "userprofile": {
+        "title": "Профіль користувача"
+    },
+    "userregistration": {
+        "title": "Регістрація користувача"
+    },
+    "userlist": {
+        "title": "Список користувачів"
+    }
+}
+  
+  

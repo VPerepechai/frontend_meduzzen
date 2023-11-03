@@ -1,0 +1,27 @@
+{
+    "home": {
+        "title": "Welcome to Frontend Meduzzen App"
+    },
+    "about": {
+        "title": "About Us"
+    },
+    "companieslist": {
+        "title": "List of companies"
+    },
+    "companyprofile": {
+        "title": "Company Profile"
+    },
+    "userauthorization": {
+        "title": "User authorization"
+    },
+    "userprofile": {
+        "title": "User Profile"
+    },
+    "userregistration": {
+        "title": "User registration"
+    },
+    "userlist": {
+        "title": "List of users"
+    }
+}
+  

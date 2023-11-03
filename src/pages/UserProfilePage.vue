@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>User Profile</h1>
+        <h1>{{ $t('userprofile.title') }}</h1>
     </div>
 </template>
 
